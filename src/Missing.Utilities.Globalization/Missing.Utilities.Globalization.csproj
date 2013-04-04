@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration\CurrencyIsoCodeCollection.cs" />
+    <Compile Include="Configuration\CurrencyIsoCode.cs" />
+    <Compile Include="Configuration\CurrencyIsoCodesConfiguration.cs" />
+    <Compile Include="Configuration\Default.cs" />
+    <Compile Include="CurrencyTools.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
